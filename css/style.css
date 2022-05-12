@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    font-size: 30px;
+    font-size: 2.5rem;
     margin: 0 auto;
     color: #E53170;
     padding: 100px;
@@ -29,12 +29,18 @@ header {
 }
 
 li{
-    padding: 15px;
+    padding-bottom: 1rem;
 }
 
 .nome{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
+    margin: 10px 20px;
+}
+
+.skill{
+    margin: 10px 20px;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -54,11 +60,13 @@ img {
     background-color: black;
     float: left;
     width: calc(100% / 3 - 2rem);
-    text-align: center;
     margin: 1rem 1rem;
 }
 
 a {
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    color: #45A9E3;
     text-decoration: none;
 }
 
