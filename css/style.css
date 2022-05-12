@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #FFF;
+}
+
+header {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #E53170;
+    padding: 100px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.sottotitolo {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.column {
+    background-color: black;
+    margin-bottom: 2rem;
+    width: 33%;
+    float: left;
+}
+
+.clearfix::after {
+    content: ' ';
+    clear: both;
+    display: table;
+}
+
